@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package proto;
+
+option java_package = "cn.ololee.protobuftestdemo";
+
+option java_outer_classname = "PersonProto";
+
+message Person{
+  string name = 1;
+  int32 age = 2;
+  bool sex = 3;
+  string address = 4;
+  string email = 5;
+}
